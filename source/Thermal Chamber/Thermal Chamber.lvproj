@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">20.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -45,6 +46,7 @@
 		<Item Name="Thermal Chamber Controller with Multiple DUT.vi" Type="VI" URL="../Thermal Chamber Controller with Multiple DUT.vi">
 			<Property Name="marked" Type="Int">0</Property>
 		</Item>
+		<Item Name="Mock Error Handler Interface.lvclass" Type="LVClass" URL="../Tests/Mock Error Handler Interface/Mock Error Handler Interface.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi">
@@ -170,12 +172,21 @@
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
-				<Item Name="TFTS.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/Triarc Framework Test Suite/TFTS.lvlib"/>
-				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Enqueue Request Message.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/Triarc Framework/Process/Private/SubVIs/Enqueue Request Message.vi"/>
 				<Item Name="Broadcast Event Dequeuers.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/Triarc Framework/Support/Broadcast Event Dequeuers.lvlib"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
+				<Item Name="Test Suite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Suite.lvclass"/>
+				<Item Name="Set Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Set Assertion Type.vi"/>
+				<Item Name="Add test result.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Add test result.vi"/>
+				<Item Name="LUnit Record Assertion Result.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Record Assertion Result.vi"/>
+				<Item Name="LUnit Aggregate Assertion Results.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Aggregate Assertion Results.vi"/>
+				<Item Name="LUnit Merge Status.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Method Result/LUnit Merge Status.vi"/>
+				<Item Name="LUnit Concatenate result strings.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Concatenate result strings.vi"/>
+				<Item Name="Mock.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/Mock.lvclass"/>
+				<Item Name="LMock VI Call.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/LMock VI Call.lvclass"/>
+				<Item Name="LMock Expectation.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/LMock Expectation.lvclass"/>
+				<Item Name="LMock Parametric VI Call.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LMock/LMock Parametric VI Call.lvclass"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
