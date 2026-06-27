@@ -30,5 +30,5 @@ unitTests:
     lunit:
       enabled: true
       locations:
-        - "tests\\Coffee Shop\\Tests"
-        - "tests\\Thermal Chamber\\Tests"
+        - "source\\Coffee Shop\\Tests"
+        - "source\\Thermal Chamber\\Tests"
