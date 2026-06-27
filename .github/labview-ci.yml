@@ -20,3 +20,15 @@ activities:
   - custom-image
   - snapshots-2
   - unit-tests
+unitTests:
+  thresholds:
+    passedPercent:
+      greenAtLeast: 100
+      yellowAtLeast: 80
+      redBelow: 80
+  tools:
+    lunit:
+      enabled: true
+      locations:
+        - "tests\\Coffee Shop\\Tests"
+        - "tests\\Thermal Chamber\\Tests"
