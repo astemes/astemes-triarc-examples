@@ -1,0 +1,10 @@
+{
+    "missing":  [
+                    {
+                        "tool":  "lunit",
+                        "name":  "LUnit",
+                        "kind":  "error",
+                        "detail":  "The LUnit operation produced no JUnit output."
+                    }
+                ]
+}
