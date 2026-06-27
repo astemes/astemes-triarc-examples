@@ -1,7 +1,7 @@
 {
-  "version": "win-7dd23cadea7a",
+  "version": "win-ba10c4f2faa1",
   "platform": "windows",
-  "manifest_url": "https://astemes.github.io/astemes-triarc-examples/workers/windows/win-7dd23cadea7a/manifest.html",
-  "build_date": "2026-06-27T16:11:55Z",
+  "manifest_url": "https://astemes.github.io/astemes-triarc-examples/workers/windows/win-ba10c4f2faa1/manifest.html",
+  "build_date": "2026-06-27T16:53:06Z",
   "git_sha": "5c96bd389c4de5ebe54f4bc3f143d04506dc6350"
 }
