@@ -1,8 +1,15 @@
 {
   "schema": 1,
   "repo": "astemes/astemes-triarc-examples",
-  "sha": "3745b14aeef3de76ed3583eac12427a4df14cb5e",
+  "sha": "8ee3ebc76fac683908fbd64a59145730a772ef51",
   "revisions": [
+    {
+      "sha": "8ee3ebc76fac683908fbd64a59145730a772ef51",
+      "short": "8ee3ebc",
+      "message": "Update labview-ci.yml",
+      "author": "Anton Sundqvist",
+      "date": "2026-06-27T18:03:59Z"
+    },
     {
       "sha": "3745b14aeef3de76ed3583eac12427a4df14cb5e",
       "short": "3745b14",
