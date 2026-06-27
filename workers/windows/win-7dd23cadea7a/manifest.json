@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "platform": "windows",
+  "version": "win-7dd23cadea7a",
+  "labview_version": "2026",
+  "base_image": "ghcr.io/elijah286/labview-ci-with-containers-labview-base:2026",
+  "base_digest": "sha256:291e91d489caf34b77a511755c254c5a8012477957721a5db6e1c45435e30a80",
+  "seed_image": "ghcr.io/elijah286/labview-ci-with-containers-labview-base:2026",
+  "seed_digest": "sha256:291e91d489caf34b77a511755c254c5a8012477957721a5db6e1c45435e30a80",
+  "worker_layer": "seed-only-copy",
+  "copied_from_base": true,
+  "image_ref": "ghcr.io/astemes/astemes-triarc-examples-labview:win-7dd23cadea7a",
+  "build_date": "2026-06-27T16:11:55Z",
+  "git_sha": "5c96bd389c4de5ebe54f4bc3f143d04506dc6350",
+  "run_url": "https://github.com/astemes/astemes-triarc-examples/actions/runs/28294599734",
+  "vipc": [],
+  "vipm_raw": "",
+  "vipm_packages": [],
+  "nipkg_raw": "",
+  "nipkg_packages": []
+}
