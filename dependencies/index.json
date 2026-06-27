@@ -1,0 +1,804 @@
+{
+  "schema": 1,
+  "repo": "astemes/astemes-triarc-examples",
+  "sha": "5c96bd389c4de5ebe54f4bc3f143d04506dc6350",
+  "revisions": [
+    {
+      "sha": "5c96bd389c4de5ebe54f4bc3f143d04506dc6350",
+      "short": "5c96bd3",
+      "message": "manual install attempt",
+      "author": "Anton Sundqvist",
+      "date": "2026-06-27T16:01:02Z"
+    },
+    {
+      "sha": "1e1d48e06d8ca780aac3ba785a561eb52311ee38",
+      "short": "1e1d48e",
+      "message": "Add LabVIEW CI pipeline",
+      "author": "Anton Sundqvist",
+      "date": "2026-06-27T15:54:44Z"
+    },
+    {
+      "sha": "6b65668bcea9d4c6378bb033361f0227130fa144",
+      "short": "6b65668",
+      "message": "Add LabVIEW CI pipeline",
+      "author": "Anton Sundqvist",
+      "date": "2026-06-27T15:46:08Z"
+    },
+    {
+      "sha": "5495279ad0a1bd7ec5f173084123aedbb69fd786",
+      "short": "5495279",
+      "message": "Update tests",
+      "author": "Anton Sundqvist",
+      "date": "2026-06-26T09:39:30Z"
+    },
+    {
+      "sha": "1d8ac98f52ccce772aa2420f4dff2ee9c5919429",
+      "short": "1d8ac98",
+      "message": "fix linking",
+      "author": "Anton Sundqvist",
+      "date": "2026-06-26T09:23:34Z"
+    },
+    {
+      "sha": "c4e809341709de6c4ddefb15fcaf999ee30073ba",
+      "short": "c4e8093",
+      "message": "Update Tests, remove inheritance to focus example",
+      "author": "Anton Sundqvist",
+      "date": "2025-09-22T18:46:03Z"
+    },
+    {
+      "sha": "c8774d3418480ee0dcb2619eb77f41a9b86148dd",
+      "short": "c8774d3",
+      "message": "Update Jenkinsfile",
+      "author": "Anton Sundqvist",
+      "date": "2023-01-21T18:21:46Z"
+    },
+    {
+      "sha": "e5980818ca552eb6cf2f2076f68394e820a1770b",
+      "short": "e598081",
+      "message": "Remove orphaned VI",
+      "author": "Anton Sundqvist",
+      "date": "2023-01-21T18:09:12Z"
+    },
+    {
+      "sha": "3effd681016fa337bbf0fdccb6cda3f54e255cc9",
+      "short": "3effd68",
+      "message": "Buxfix",
+      "author": "Anton Sundqvist",
+      "date": "2023-01-20T17:11:21Z"
+    },
+    {
+      "sha": "c03619e3ec9303d0dbd013cc48788852fcb0c53a",
+      "short": "c03619e",
+      "message": "fix build",
+      "author": "Anton Sundqvist",
+      "date": "2023-01-14T18:21:42Z"
+    },
+    {
+      "sha": "fe821baeea9c353bfecce09cdb35f81389d51a29",
+      "short": "fe821ba",
+      "message": "Replace legacy vis",
+      "author": "Anton Sundqvist",
+      "date": "2023-01-14T17:51:05Z"
+    },
+    {
+      "sha": "d422163a14e7630e118f1acb92bb377d7df63c7f",
+      "short": "d422163",
+      "message": "Fix bug causing time scale to not be set properly in main.vi",
+      "author": "Anton Sundqvist",
+      "date": "2023-01-14T16:13:38Z"
+    },
+    {
+      "sha": "41c1e7975b92cbfe7b6ae22014d5cc08a0816d45",
+      "short": "41c1e79",
+      "message": "Update Jenkinsfile",
+      "author": "Anton Sundqvist",
+      "date": "2022-11-07T06:33:32Z"
+    },
+    {
+      "sha": "587a4b7bd610809b638ff3cde431ea3864acd27e",
+      "short": "587a4b7",
+      "message": "Add PPL Build example",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-23T09:55:57Z"
+    },
+    {
+      "sha": "17d0d465bf01bf7a93281cd744b410853783ecb1",
+      "short": "17d0d46",
+      "message": "Update Coffee Shop.lvproj",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T20:19:58Z"
+    },
+    {
+      "sha": "414072341366d3b321eaf7bf89555244b6c3c00b",
+      "short": "4140723",
+      "message": "Update Triarc Examples.vipb",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T18:29:40Z"
+    },
+    {
+      "sha": "6d14d69093e0275fb4dcf36c3a08a4721792491a",
+      "short": "6d14d69",
+      "message": "Bugfix",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T17:57:25Z"
+    },
+    {
+      "sha": "e0e9027aea19c596e44b469268dd98d198bb06bd",
+      "short": "e0e9027",
+      "message": "update folder structure",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T12:49:55Z"
+    },
+    {
+      "sha": "efe9b9edfc6fc9103c7a4d83bf7b902c4ae8229e",
+      "short": "efe9b9e",
+      "message": "Merge branch 'main' of https://github.com/Astemes/astemes-triarc-examples",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T11:23:15Z"
+    },
+    {
+      "sha": "5b3a8e46a72e2a851a080045cd3d82bc0897cab9",
+      "short": "5b3a8e4",
+      "message": "Update Triarc Examples.vipb",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T11:23:00Z"
+    },
+    {
+      "sha": "d206d3c82a5daa8bd052f6eea748672fd1903ac7",
+      "short": "d206d3c",
+      "message": "Update .gitignore",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T11:22:52Z"
+    },
+    {
+      "sha": "cbe107a01da91142bb527d9b597e9aefb17988ff",
+      "short": "cbe107a",
+      "message": "Update Device Under Test Tester.vi",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T11:17:36Z"
+    },
+    {
+      "sha": "fc93e2548f371b3ee44928043fd992ea1e5d4311",
+      "short": "fc93e25",
+      "message": "move tests to subdir",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T11:13:28Z"
+    },
+    {
+      "sha": "94eb5563386c0f72bbf59a74d909b2dd1e5672ef",
+      "short": "94eb556",
+      "message": "Update README.md",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T11:06:26Z"
+    },
+    {
+      "sha": "faf2b42eaa48189401f07377db43939f9ebae221",
+      "short": "faf2b42",
+      "message": "Update Jenkinsfile",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T10:59:13Z"
+    },
+    {
+      "sha": "4bbbfe581cddeaed08614cbb4707bf7c9c09fe69",
+      "short": "4bbbfe5",
+      "message": "Fix issues caused by changes to Triarc",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T10:21:35Z"
+    },
+    {
+      "sha": "498a16bb9781e101c204310b8c160100a6a578f1",
+      "short": "498a16b",
+      "message": "Update Jenkinsfile",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T09:33:24Z"
+    },
+    {
+      "sha": "026d9191400a26ee5eeadea12d7dce64df92e9fd",
+      "short": "026d919",
+      "message": "add build spec",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T09:18:20Z"
+    },
+    {
+      "sha": "b93fe29dc0c59e34d76ec48479afaaffde6b8832",
+      "short": "b93fe29",
+      "message": "Update README.md",
+      "author": "Anton Sundqvist",
+      "date": "2022-04-16T07:25:02Z"
+    },
+    {
+      "sha": "f2959e2ea580a3b504997ef66f5ea1c9d4f60eff",
+      "short": "f2959e2",
+      "message": "update fw",
+      "author": "Anton Sundqvist",
+      "date": "2022-02-25T21:09:04Z"
+    },
+    {
+      "sha": "664d4d330f29d7e68a6d178e8d1bf0e545c5b510",
+      "short": "664d4d3",
+      "message": "Create Jenkinsfile",
+      "author": "Anton Sundqvist",
+      "date": "2022-02-20T19:40:47Z"
+    },
+    {
+      "sha": "a55e71e94e7def9a54edbe758f06ec6e8acfb331",
+      "short": "a55e71e",
+      "message": "replace deprecated method in thermal chamber example",
+      "author": "Anton Sundqvist",
+      "date": "2022-02-20T19:37:36Z"
+    },
+    {
+      "sha": "fea4f193d37341c0eec315ea47bc16c998c1ea68",
+      "short": "fea4f19",
+      "message": "Revert committed changes in version 2021 and fix logger",
+      "author": "Anton Sundqvist",
+      "date": "2022-02-20T19:36:00Z"
+    },
+    {
+      "sha": "a7cfa10468456ecb9211202966e52c4cc2662d6b",
+      "short": "a7cfa10",
+      "message": "Revert \"REplace depreacted method\"",
+      "author": "Anton Sundqvist",
+      "date": "2022-02-20T19:22:24Z"
+    },
+    {
+      "sha": "0f6fc6661a983ea210285f84d23ce2e338b0a7a2",
+      "short": "0f6fc66",
+      "message": "REplace depreacted method",
+      "author": "Anton Sundqvist",
+      "date": "2022-02-18T19:04:05Z"
+    },
+    {
+      "sha": "e19b8a7fdc4f61e4a4a032f36a4d88006de77f0b",
+      "short": "e19b8a7",
+      "message": "Update examples to use latest TF version",
+      "author": "Anton Sundqvist",
+      "date": "2022-02-04T15:20:06Z"
+    },
+    {
+      "sha": "37e43f7b52184c409a31f97b9be7797c25d1f461",
+      "short": "37e43f7",
+      "message": "fix namechange",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-17T20:39:59Z"
+    },
+    {
+      "sha": "511fb79610ee547902cc9e5dfd60f365bb6be813",
+      "short": "511fb79",
+      "message": "no message",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-15T17:14:11Z"
+    },
+    {
+      "sha": "5493d5abf0ef153715e90fd39c3c19477d4cd5e5",
+      "short": "5493d5a",
+      "message": "Replace test helpers with bdcst helper",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-13T18:19:02Z"
+    },
+    {
+      "sha": "9599330b679f81d52fa7ae8b8915d261be561106",
+      "short": "9599330",
+      "message": "Migrate to use broadcast dequeue over the deprecated test helpers",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-13T18:09:58Z"
+    },
+    {
+      "sha": "013d38251e19525f44aeca275638e225ecbd06d8",
+      "short": "013d382",
+      "message": "add method",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-10T17:04:06Z"
+    },
+    {
+      "sha": "cd38ea5fc017bf32d197297c8ffaca0082b49a1d",
+      "short": "cd38ea5",
+      "message": "Minor cleanups",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-10T15:26:06Z"
+    },
+    {
+      "sha": "27645bbae779c97e1cc424a360ea9948ef063b15",
+      "short": "27645bb",
+      "message": "Spawn 1 barista and 1 cashier on startup",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-10T07:27:56Z"
+    },
+    {
+      "sha": "806956a58aa7d0935b3c66059baec28d0040030a",
+      "short": "806956a",
+      "message": "Cosmetic improvement",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T19:29:58Z"
+    },
+    {
+      "sha": "a94b47f026324ecb92e8bb63e31a2c646c82d428",
+      "short": "a94b47f",
+      "message": "Generate unique random names",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T19:28:38Z"
+    },
+    {
+      "sha": "d5f77777609ca1759191a33ddba0a0894ee36af4",
+      "short": "d5f7777",
+      "message": "Add customer with phone to coffee shop",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T19:16:10Z"
+    },
+    {
+      "sha": "579cc51a71344385d4c99ff618d5a41c0305ea48",
+      "short": "579cc51",
+      "message": "Add Customer with cell phone",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T18:15:17Z"
+    },
+    {
+      "sha": "151818b421647435b1c2782278d616d12cbc2f1f",
+      "short": "151818b",
+      "message": "Clean up folder structure. No code changes",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T15:54:02Z"
+    },
+    {
+      "sha": "6a0dae8327669cd8ab6f833171f3535522cebcde",
+      "short": "6a0dae8",
+      "message": "Deprecate Pick up order and use job handler instead",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T15:40:38Z"
+    },
+    {
+      "sha": "e2d4e1cd91ccc53646c634313df5d9fddee88650",
+      "short": "e2d4e1c",
+      "message": "Improve timing and delays.",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T15:39:55Z"
+    },
+    {
+      "sha": "b5f8e9dbbf3a8de9cc848f32d70f11e565a02e7a",
+      "short": "b5f8e9d",
+      "message": "Fix updating of FP items",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T15:21:00Z"
+    },
+    {
+      "sha": "cd034f1e8a6e0831ba02ec54186606512b0a33f8",
+      "short": "cd034f1",
+      "message": "change error code 0 to 42",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T14:35:21Z"
+    },
+    {
+      "sha": "76c3a393dae4b2e2efe3390b852a96f6e4dfbec6",
+      "short": "76c3a39",
+      "message": "remove redundant start state",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T14:10:53Z"
+    },
+    {
+      "sha": "bc0e18db0c7530889f7a338c68deb18a5d1c19b9",
+      "short": "bc0e18d",
+      "message": "Fix test bugs",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T13:44:42Z"
+    },
+    {
+      "sha": "67b623e143d4e38573dfe7eb20178a9b1d714862",
+      "short": "67b623e",
+      "message": "Add delay before leaving configuration",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T12:06:56Z"
+    },
+    {
+      "sha": "8f2e51159515207ddd379a149bb4aca6487aaf1d",
+      "short": "8f2e511",
+      "message": "Fix bug: send order items and not beverages to barista",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T10:57:19Z"
+    },
+    {
+      "sha": "3cb9737077f330b6d0edfce0c34058412c5a7e88",
+      "short": "3cb9737",
+      "message": "Bugfix: adding to app if process.",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-09T08:47:58Z"
+    },
+    {
+      "sha": "7aee122c743b0b9eefcf55e12ea7089f886115bb",
+      "short": "7aee122",
+      "message": "Cathc up",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-08T21:59:15Z"
+    },
+    {
+      "sha": "7a12103291a3905388b8f457b735fff9add758e6",
+      "short": "7a12103",
+      "message": "Add time scale config to barista and cashier",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-08T21:58:29Z"
+    },
+    {
+      "sha": "b39bb57b464fb946592d50212478b6acb1a752d0",
+      "short": "b39bb57",
+      "message": "Fix broad cast sequencing",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-08T20:44:49Z"
+    },
+    {
+      "sha": "b506240d4026633a876e526e7d0c293e01dfc3d0",
+      "short": "b506240",
+      "message": "Implement Coffee shop integration with work dispatchers",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-08T17:33:16Z"
+    },
+    {
+      "sha": "7c2071c1a201f41734e7c09bf0207b4a980ec12e",
+      "short": "7c2071c",
+      "message": "Implement Coffee Shop API",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-08T16:24:35Z"
+    },
+    {
+      "sha": "4707044a3317ee5d448823e38f9f00b3b15741ab",
+      "short": "4707044",
+      "message": "Work on coffee shop",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-08T16:11:35Z"
+    },
+    {
+      "sha": "c295c864e33ae7612cd072da9c0f1153dd80492a",
+      "short": "c295c86",
+      "message": "Merge interfaces for processing job and registering for more jobs",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-08T15:54:09Z"
+    },
+    {
+      "sha": "30b4cd1ee95da983cd587db1a3cbc48ddea9123f",
+      "short": "30b4cd1",
+      "message": "Duplicate customer tests for barista and cahseir",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-08T12:31:10Z"
+    },
+    {
+      "sha": "55469f75917f807aa4dd3eefd1247f65612decd4",
+      "short": "55469f7",
+      "message": "Work on coffee shop",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-08T12:17:59Z"
+    },
+    {
+      "sha": "4388ca3b83d670eb3ffda6025e2ad03101b9ca55",
+      "short": "4388ca3",
+      "message": "Add cusomter tests to coffee shop",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-08T11:39:37Z"
+    },
+    {
+      "sha": "6bb77e16bf83b38a3e8944c0d53db85cfed5b4ad",
+      "short": "6bb77e1",
+      "message": "Finish customer implementation-",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-07T19:36:57Z"
+    },
+    {
+      "sha": "a6e24e338784df365c26a4611b86f7caafa851d9",
+      "short": "a6e24e3",
+      "message": "Work on customer",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-07T19:12:17Z"
+    },
+    {
+      "sha": "1d00b8689f84959749e8dc0055546ab9fa36c95c",
+      "short": "1d00b86",
+      "message": "Add mian",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-07T17:08:59Z"
+    },
+    {
+      "sha": "39916d48a5200cbbd82b2a640c77c89dcf7f27f3",
+      "short": "39916d4",
+      "message": "Implement barista",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-07T17:05:53Z"
+    },
+    {
+      "sha": "31d4c8598f7f4f815529a122008b4c2c54fe4013",
+      "short": "31d4c85",
+      "message": "Update icons and names",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-07T16:06:58Z"
+    },
+    {
+      "sha": "16b5ed4d26a97a5d818dd35b94b39605db44a1e5",
+      "short": "16b5ed4",
+      "message": "Add test to show missing functionality",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-07T14:03:28Z"
+    },
+    {
+      "sha": "e0c8a4407d53f8e7b409dbce065b86e02a5a7637",
+      "short": "e0c8a44",
+      "message": "Extract interface refactor",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-07T13:46:02Z"
+    },
+    {
+      "sha": "6bc20f3ecc4c56c447d1ab4f663ed0ef263ae9e5",
+      "short": "6bc20f3",
+      "message": "Work on abstractions",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-07T13:39:10Z"
+    },
+    {
+      "sha": "00a600ffb2b3ccd4c3b674ac926cdd219834872d",
+      "short": "00a600f",
+      "message": "Work on cahier",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-06T21:28:32Z"
+    },
+    {
+      "sha": "f8d7a61d71b9d7e9f74aba71f5fb0197cbc6f5a3",
+      "short": "f8d7a61",
+      "message": "Implement Work Dispatcher",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-06T19:55:05Z"
+    },
+    {
+      "sha": "2379513bc26e1f514a2ec30736cb839b03f319f2",
+      "short": "2379513",
+      "message": "Implement worker view",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-06T18:51:05Z"
+    },
+    {
+      "sha": "4c1ece97b029e7178a9c6c089b347a55bcba4cc4",
+      "short": "4c1ece9",
+      "message": "Work on Worker implementation",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-06T18:43:06Z"
+    },
+    {
+      "sha": "a65e47f0d06cf987525abc99122956345363bbe8",
+      "short": "a65e47f",
+      "message": "Initial work on coffee shop",
+      "author": "Anton Sundqvist",
+      "date": "2021-10-06T17:57:57Z"
+    },
+    {
+      "sha": "4af2673eb5fae786463a6a2181973d191f5dbb08",
+      "short": "4af2673",
+      "message": "Add top level Demo VIs",
+      "author": "Anton Sundqvist",
+      "date": "2021-09-24T20:23:18Z"
+    },
+    {
+      "sha": "2ccc335b0907ca7c12c9c00096a7a0666ca1ffdf",
+      "short": "2ccc335",
+      "message": "Implement thermal chamber controller",
+      "author": "Anton Sundqvist",
+      "date": "2021-09-24T19:52:30Z"
+    },
+    {
+      "sha": "9a21cfda6cbe5146d4ee550e5c5d897adc551d6c",
+      "short": "9a21cfd",
+      "message": "Add tests for Thermal Chamber",
+      "author": "Anton Sundqvist",
+      "date": "2021-09-24T18:39:18Z"
+    },
+    {
+      "sha": "d22dfb349c20d683d9bcd196ab7c6dd6b804fb18",
+      "short": "d22dfb3",
+      "message": "Implement response simulator",
+      "author": "Anton Sundqvist",
+      "date": "2021-09-24T17:49:15Z"
+    },
+    {
+      "sha": "00df39b1d088cdfdfbc011b5d19efd040888fd7a",
+      "short": "00df39b",
+      "message": "Add tests for response simulator",
+      "author": "Anton Sundqvist",
+      "date": "2021-09-24T16:23:01Z"
+    },
+    {
+      "sha": "36c7c311ad5c9b2d149e51e991017725893c69a0",
+      "short": "36c7c31",
+      "message": "Start implementing thermal chamber controller",
+      "author": "Anton Sundqvist",
+      "date": "2021-09-24T15:41:35Z"
+    },
+    {
+      "sha": "253d80c4d6733c035e34257d92a84b8d1df48212",
+      "short": "253d80c",
+      "message": "Implement DUT to be functionally the same as the DQMH example",
+      "author": "Anton Sundqvist",
+      "date": "2021-09-23T19:20:38Z"
+    },
+    {
+      "sha": "e059b0356e2ce265392f071753ef9a41a9e54aed",
+      "short": "e059b03",
+      "message": "Initial commit",
+      "author": "Anton Sundqvist",
+      "date": "2021-09-23T11:19:47Z"
+    }
+  ],
+  "config": {
+    "use": "",
+    "actions": {},
+    "vipc": [],
+    "dragon": [],
+    "hasVipcList": false,
+    "hasDragonList": false
+  },
+  "vipc": [
+    {
+      "path": ".github/labview/vipm/ci-tooling.vipc",
+      "role": "core",
+      "capability": "",
+      "tooling": true,
+      "configured": true,
+      "monitored": true,
+      "locked": true,
+      "packages": [
+        "astemes_lib_lunit-2.0.13.6",
+        "astemes_lib_lunit_cli-1.6.1.23",
+        "dataflow_g_lib_g_image-0.5.0.1",
+        "jki_labs_tool_vi_tester-3.0.2.294-1",
+        "jki_lib_caraya-1.4.4.148",
+        "jki_lib_state_machine-2024.0.3.23",
+        "jki_rsc_toolkits_palette-1.1-1",
+        "labview_open_source_lib_epoch_datetime-1.3.0.8",
+        "labview_open_source_project_lib_labview_open_source_palette-1.0.2.7",
+        "ni_lib_junit_results_api-1.0.1.6",
+        "ni_lib_simple_xml-1.0.0.4",
+        "ni_lib_utf_junit_report-1.0.1.43",
+        "oglib_array-6.0.1.20",
+        "oglib_error-6.0.0.26",
+        "oglib_file-6.0.2.28",
+        "oglib_lvdata-6.0.0.45",
+        "oglib_string-6.0.2.35"
+      ],
+      "error": ""
+    }
+  ],
+  "nipm": [
+    {
+      "name": "LabVIEW",
+      "source": "NI Package Manager",
+      "labview": true,
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "details": "LabVIEW runtime and development packages from the NI feeds."
+    },
+    {
+      "name": "VI Analyzer support",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-viawin-labview-support"
+        ],
+        "linux": [
+          "ni-vialin-labview-support"
+        ]
+      },
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "details": "NI VI Analyzer support package used by the analyzer runners."
+    },
+    {
+      "name": "NI Unit Test Framework",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-utf-labview-support"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "NI UTF support package used by the Windows unit-test runner."
+    },
+    {
+      "name": "JKI Dragon",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "jki-dragon"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "JKI Dragon dependency-management tooling installed from the LabVIEW 2026 NI Package Manager feed."
+    },
+    {
+      "name": "VI Package Manager",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-vipm"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "NI-published Windows VIPM package that enables VIPC application during worker builds. Linux installs VIPM from the native Debian package during its worker build."
+    }
+  ],
+  "dragon": {
+    "available": false,
+    "column": "winExp",
+    "ready": false,
+    "health": "",
+    "manifest_version": "",
+    "files": [],
+    "install_set": [],
+    "conflicts": []
+  },
+  "system": [
+    {
+      "name": "VI Browser 2.0 toimages runner",
+      "source": "Repository Go code",
+      "path": ".github/labview/toimages/main.go",
+      "details": "Batch runner compiled from repo Go source; Linux uses the toimages GHCR image and Windows builds runner.exe in the workflow.",
+      "platforms": {
+        "windows": {
+          "present": true,
+          "label": "workflow-built"
+        },
+        "linux": {
+          "present": true,
+          "label": "toimages image"
+        }
+      }
+    },
+    {
+      "name": "lvctl render engine",
+      "source": "Repository Go code + embedded VIs",
+      "path": ".github/labview/toimages/_ni/labview/lvctl",
+      "details": "Renderer used by VI Browser 2.0 to drive LabVIEW and emit position-aware frame JSON.",
+      "platforms": {
+        "windows": {
+          "present": true,
+          "label": "workflow-built"
+        },
+        "linux": {
+          "present": true,
+          "label": "toimages image"
+        }
+      }
+    }
+  ],
+  "columns": [
+    {
+      "key": "windows",
+      "label": "Windows",
+      "platform": "windows",
+      "defaultTag": "latest",
+      "tag": "latest",
+      "ready": false,
+      "packages": [],
+      "failed_packages": [],
+      "nipkg_ready": false,
+      "nipkg_packages": [],
+      "labview_version": "",
+      "version": "latest"
+    },
+    {
+      "key": "linux",
+      "label": "Linux",
+      "platform": "linux",
+      "defaultTag": "latest",
+      "tag": "latest",
+      "ready": false,
+      "packages": [],
+      "failed_packages": [],
+      "nipkg_ready": false,
+      "nipkg_packages": [],
+      "labview_version": "",
+      "version": "latest"
+    }
+  ]
+}
