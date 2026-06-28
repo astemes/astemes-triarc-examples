@@ -1,8 +1,29 @@
 {
   "schema": 1,
   "repo": "astemes/astemes-triarc-examples",
-  "sha": "bc2aea12a9f2229b600d363e05601544a39bd515",
+  "sha": "aaefcddf714f631b10d2303d79c32cb71db5e3ee",
   "revisions": [
+    {
+      "sha": "aaefcddf714f631b10d2303d79c32cb71db5e3ee",
+      "short": "aaefcdd",
+      "message": "add dependencies",
+      "author": "Anton Sundqvist",
+      "date": "2026-06-28T06:31:08Z"
+    },
+    {
+      "sha": "81b3985a96544c4a82f02b3db44492fb0ed4ac55",
+      "short": "81b3985",
+      "message": "Update build-labview-image.yml",
+      "author": "Anton Sundqvist",
+      "date": "2026-06-28T06:31:02Z"
+    },
+    {
+      "sha": "63d41492cd70b79af06672eaec77d3186f2ec0c6",
+      "short": "63d4149",
+      "message": "Update install-vipc.ps1",
+      "author": "Anton Sundqvist",
+      "date": "2026-06-28T06:30:59Z"
+    },
     {
       "sha": "bc2aea12a9f2229b600d363e05601544a39bd515",
       "short": "bc2aea1",
@@ -678,6 +699,22 @@
         "oglib_string-6.0.2.35"
       ],
       "error": ""
+    },
+    {
+      "path": "dependencies/dependencies.vipc",
+      "role": "project",
+      "capability": "",
+      "tooling": false,
+      "configured": true,
+      "monitored": true,
+      "locked": false,
+      "packages": [
+        "astemes_lib_lmock-1.4.14.15",
+        "astemes_lib_lunit-2.0.13.6",
+        "astemes_lib_lunit_test_inheritance_add_on-1.0.5.4",
+        "astemes_lib_triarc_framework-1.2.4.11"
+      ],
+      "error": ""
     }
   ],
   "nipm": [
@@ -801,10 +838,16 @@
       "tag": "latest",
       "ready": true,
       "packages": [
+        "astemes_lib_lmock",
+        "astemes_lib_lmock-v1.4.14.15",
         "astemes_lib_lunit",
         "astemes_lib_lunit-v2.0.13.6",
         "astemes_lib_lunit_cli",
         "astemes_lib_lunit_cli-v1.6.1.23",
+        "astemes_lib_lunit_test_inheritance_add_on",
+        "astemes_lib_lunit_test_inheritance_add_on-v1.0.5.4",
+        "astemes_lib_triarc_framework",
+        "astemes_lib_triarc_framework-v1.2.4.11",
         "Installed",
         "ni_lib_junit_results_api",
         "ni_lib_junit_results_api-v1.0.1.6",
@@ -3130,7 +3173,7 @@
         }
       ],
       "labview_version": "2026",
-      "version": "win-ba10c4f2faa1"
+      "version": "win-6caefac1d4d6"
     },
     {
       "key": "linux",
