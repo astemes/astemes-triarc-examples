@@ -1,0 +1,562 @@
+[
+  {
+    "sha": "aaefcddf714f631b10d2303d79c32cb71db5e3ee",
+    "short": "aaefcdd",
+    "message": "add dependencies",
+    "author": "Anton Sundqvist",
+    "date": "2026-06-28T09:31:08+03:00",
+    "vi_count": 232
+  },
+  {
+    "sha": "6b65668bcea9d4c6378bb033361f0227130fa144",
+    "short": "6b65668",
+    "message": "Add LabVIEW CI pipeline",
+    "author": "Anton Sundqvist",
+    "date": "2026-06-27T08:46:08-07:00",
+    "vi_count": 232
+  },
+  {
+    "sha": "5495279ad0a1bd7ec5f173084123aedbb69fd786",
+    "short": "5495279",
+    "message": "Update tests",
+    "author": "Anton Sundqvist",
+    "date": "2026-06-26T12:39:30+03:00",
+    "vi_count": 232
+  },
+  {
+    "sha": "1d8ac98f52ccce772aa2420f4dff2ee9c5919429",
+    "short": "1d8ac98",
+    "message": "fix linking",
+    "author": "Anton Sundqvist",
+    "date": "2026-06-26T12:23:34+03:00",
+    "vi_count": 232
+  },
+  {
+    "sha": "c4e809341709de6c4ddefb15fcaf999ee30073ba",
+    "short": "c4e8093",
+    "message": "Update Tests, remove inheritance to focus example",
+    "author": "Anton Sundqvist",
+    "date": "2025-09-22T21:46:03+03:00",
+    "vi_count": 232
+  },
+  {
+    "sha": "e5980818ca552eb6cf2f2076f68394e820a1770b",
+    "short": "e598081",
+    "message": "Remove orphaned VI",
+    "author": "Anton Sundqvist",
+    "date": "2023-01-21T20:09:12+02:00",
+    "vi_count": 235
+  },
+  {
+    "sha": "3effd681016fa337bbf0fdccb6cda3f54e255cc9",
+    "short": "3effd68",
+    "message": "Buxfix",
+    "author": "Anton Sundqvist",
+    "date": "2023-01-20T19:11:21+02:00",
+    "vi_count": 236
+  },
+  {
+    "sha": "fe821baeea9c353bfecce09cdb35f81389d51a29",
+    "short": "fe821ba",
+    "message": "Replace legacy vis",
+    "author": "Anton Sundqvist",
+    "date": "2023-01-14T19:51:05+02:00",
+    "vi_count": 236
+  },
+  {
+    "sha": "d422163a14e7630e118f1acb92bb377d7df63c7f",
+    "short": "d422163",
+    "message": "Fix bug causing time scale to not be set properly in main.vi",
+    "author": "Anton Sundqvist",
+    "date": "2023-01-14T18:13:38+02:00",
+    "vi_count": 237
+  },
+  {
+    "sha": "587a4b7bd610809b638ff3cde431ea3864acd27e",
+    "short": "587a4b7",
+    "message": "Add PPL Build example",
+    "author": "Anton Sundqvist",
+    "date": "2022-04-23T12:55:57+03:00",
+    "vi_count": 237
+  },
+  {
+    "sha": "6d14d69093e0275fb4dcf36c3a08a4721792491a",
+    "short": "6d14d69",
+    "message": "Bugfix",
+    "author": "Anton Sundqvist",
+    "date": "2022-04-16T20:57:25+03:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "e0e9027aea19c596e44b469268dd98d198bb06bd",
+    "short": "e0e9027",
+    "message": "update folder structure",
+    "author": "Anton Sundqvist",
+    "date": "2022-04-16T15:49:55+03:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "cbe107a01da91142bb527d9b597e9aefb17988ff",
+    "short": "cbe107a",
+    "message": "Update Device Under Test Tester.vi",
+    "author": "Anton Sundqvist",
+    "date": "2022-04-16T14:17:36+03:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "fc93e2548f371b3ee44928043fd992ea1e5d4311",
+    "short": "fc93e25",
+    "message": "move tests to subdir",
+    "author": "Anton Sundqvist",
+    "date": "2022-04-16T14:13:28+03:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "4bbbfe581cddeaed08614cbb4707bf7c9c09fe69",
+    "short": "4bbbfe5",
+    "message": "Fix issues caused by changes to Triarc",
+    "author": "Anton Sundqvist",
+    "date": "2022-04-16T13:21:35+03:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "f2959e2ea580a3b504997ef66f5ea1c9d4f60eff",
+    "short": "f2959e2",
+    "message": "update fw",
+    "author": "Anton Sundqvist",
+    "date": "2022-02-25T23:09:04+02:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "a55e71e94e7def9a54edbe758f06ec6e8acfb331",
+    "short": "a55e71e",
+    "message": "replace deprecated method in thermal chamber example",
+    "author": "Anton Sundqvist",
+    "date": "2022-02-20T21:37:36+02:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "fea4f193d37341c0eec315ea47bc16c998c1ea68",
+    "short": "fea4f19",
+    "message": "Revert committed changes in version 2021 and fix logger",
+    "author": "Anton Sundqvist",
+    "date": "2022-02-20T21:36:00+02:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "0f6fc6661a983ea210285f84d23ce2e338b0a7a2",
+    "short": "0f6fc66",
+    "message": "REplace depreacted method",
+    "author": "Anton Sundqvist",
+    "date": "2022-02-18T21:04:05+02:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "e19b8a7fdc4f61e4a4a032f36a4d88006de77f0b",
+    "short": "e19b8a7",
+    "message": "Update examples to use latest TF version",
+    "author": "Anton Sundqvist",
+    "date": "2022-02-04T17:20:06+02:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "37e43f7b52184c409a31f97b9be7797c25d1f461",
+    "short": "37e43f7",
+    "message": "fix namechange",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-17T22:39:59+02:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "5493d5abf0ef153715e90fd39c3c19477d4cd5e5",
+    "short": "5493d5a",
+    "message": "Replace test helpers with bdcst helper",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-13T20:19:02+02:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "9599330b679f81d52fa7ae8b8915d261be561106",
+    "short": "9599330",
+    "message": "Migrate to use broadcast dequeue over the deprecated test helpers",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-13T20:09:58+02:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "013d38251e19525f44aeca275638e225ecbd06d8",
+    "short": "013d382",
+    "message": "add method",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-10T19:04:06+02:00",
+    "vi_count": 233
+  },
+  {
+    "sha": "cd38ea5fc017bf32d197297c8ffaca0082b49a1d",
+    "short": "cd38ea5",
+    "message": "Minor cleanups",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-10T17:26:06+02:00",
+    "vi_count": 232
+  },
+  {
+    "sha": "27645bbae779c97e1cc424a360ea9948ef063b15",
+    "short": "27645bb",
+    "message": "Spawn 1 barista and 1 cashier on startup",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-10T09:27:56+02:00",
+    "vi_count": 232
+  },
+  {
+    "sha": "806956a58aa7d0935b3c66059baec28d0040030a",
+    "short": "806956a",
+    "message": "Cosmetic improvement",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T21:29:58+02:00",
+    "vi_count": 232
+  },
+  {
+    "sha": "a94b47f026324ecb92e8bb63e31a2c646c82d428",
+    "short": "a94b47f",
+    "message": "Generate unique random names",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T21:28:38+02:00",
+    "vi_count": 232
+  },
+  {
+    "sha": "d5f77777609ca1759191a33ddba0a0894ee36af4",
+    "short": "d5f7777",
+    "message": "Add customer with phone to coffee shop",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T21:16:10+02:00",
+    "vi_count": 231
+  },
+  {
+    "sha": "579cc51a71344385d4c99ff618d5a41c0305ea48",
+    "short": "579cc51",
+    "message": "Add Customer with cell phone",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T20:15:17+02:00",
+    "vi_count": 231
+  },
+  {
+    "sha": "151818b421647435b1c2782278d616d12cbc2f1f",
+    "short": "151818b",
+    "message": "Clean up folder structure. No code changes",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T17:54:02+02:00",
+    "vi_count": 223
+  },
+  {
+    "sha": "6a0dae8327669cd8ab6f833171f3535522cebcde",
+    "short": "6a0dae8",
+    "message": "Deprecate Pick up order and use job handler instead",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T17:40:38+02:00",
+    "vi_count": 229
+  },
+  {
+    "sha": "e2d4e1cd91ccc53646c634313df5d9fddee88650",
+    "short": "e2d4e1c",
+    "message": "Improve timing and delays.",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T17:39:55+02:00",
+    "vi_count": 235
+  },
+  {
+    "sha": "b5f8e9dbbf3a8de9cc848f32d70f11e565a02e7a",
+    "short": "b5f8e9d",
+    "message": "Fix updating of FP items",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T17:21:00+02:00",
+    "vi_count": 235
+  },
+  {
+    "sha": "cd034f1e8a6e0831ba02ec54186606512b0a33f8",
+    "short": "cd034f1",
+    "message": "change error code 0 to 42",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T16:35:21+02:00",
+    "vi_count": 235
+  },
+  {
+    "sha": "76c3a393dae4b2e2efe3390b852a96f6e4dfbec6",
+    "short": "76c3a39",
+    "message": "remove redundant start state",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T16:10:53+02:00",
+    "vi_count": 235
+  },
+  {
+    "sha": "bc0e18db0c7530889f7a338c68deb18a5d1c19b9",
+    "short": "bc0e18d",
+    "message": "Fix test bugs",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T15:44:42+02:00",
+    "vi_count": 235
+  },
+  {
+    "sha": "67b623e143d4e38573dfe7eb20178a9b1d714862",
+    "short": "67b623e",
+    "message": "Add delay before leaving configuration",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T14:06:56+02:00",
+    "vi_count": 235
+  },
+  {
+    "sha": "8f2e51159515207ddd379a149bb4aca6487aaf1d",
+    "short": "8f2e511",
+    "message": "Fix bug: send order items and not beverages to barista",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T12:57:19+02:00",
+    "vi_count": 234
+  },
+  {
+    "sha": "3cb9737077f330b6d0edfce0c34058412c5a7e88",
+    "short": "3cb9737",
+    "message": "Bugfix: adding to app if process.",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-09T10:47:58+02:00",
+    "vi_count": 232
+  },
+  {
+    "sha": "7aee122c743b0b9eefcf55e12ea7089f886115bb",
+    "short": "7aee122",
+    "message": "Cathc up",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-08T23:59:15+02:00",
+    "vi_count": 232
+  },
+  {
+    "sha": "7a12103291a3905388b8f457b735fff9add758e6",
+    "short": "7a12103",
+    "message": "Add time scale config to barista and cashier",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-08T23:58:29+02:00",
+    "vi_count": 232
+  },
+  {
+    "sha": "b39bb57b464fb946592d50212478b6acb1a752d0",
+    "short": "b39bb57",
+    "message": "Fix broad cast sequencing",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-08T22:44:49+02:00",
+    "vi_count": 228
+  },
+  {
+    "sha": "b506240d4026633a876e526e7d0c293e01dfc3d0",
+    "short": "b506240",
+    "message": "Implement Coffee shop integration with work dispatchers",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-08T19:33:16+02:00",
+    "vi_count": 218
+  },
+  {
+    "sha": "7c2071c1a201f41734e7c09bf0207b4a980ec12e",
+    "short": "7c2071c",
+    "message": "Implement Coffee Shop API",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-08T18:24:35+02:00",
+    "vi_count": 211
+  },
+  {
+    "sha": "4707044a3317ee5d448823e38f9f00b3b15741ab",
+    "short": "4707044",
+    "message": "Work on coffee shop",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-08T18:11:35+02:00",
+    "vi_count": 210
+  },
+  {
+    "sha": "c295c864e33ae7612cd072da9c0f1153dd80492a",
+    "short": "c295c86",
+    "message": "Merge interfaces for processing job and registering for more jobs",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-08T17:54:09+02:00",
+    "vi_count": 206
+  },
+  {
+    "sha": "30b4cd1ee95da983cd587db1a3cbc48ddea9123f",
+    "short": "30b4cd1",
+    "message": "Duplicate customer tests for barista and cahseir",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-08T14:31:10+02:00",
+    "vi_count": 204
+  },
+  {
+    "sha": "55469f75917f807aa4dd3eefd1247f65612decd4",
+    "short": "55469f7",
+    "message": "Work on coffee shop",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-08T14:17:59+02:00",
+    "vi_count": 188
+  },
+  {
+    "sha": "4388ca3b83d670eb3ffda6025e2ad03101b9ca55",
+    "short": "4388ca3",
+    "message": "Add cusomter tests to coffee shop",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-08T13:39:37+02:00",
+    "vi_count": 180
+  },
+  {
+    "sha": "6bb77e16bf83b38a3e8944c0d53db85cfed5b4ad",
+    "short": "6bb77e1",
+    "message": "Finish customer implementation-",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-07T21:36:57+02:00",
+    "vi_count": 173
+  },
+  {
+    "sha": "a6e24e338784df365c26a4611b86f7caafa851d9",
+    "short": "a6e24e3",
+    "message": "Work on customer",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-07T21:12:17+02:00",
+    "vi_count": 172
+  },
+  {
+    "sha": "1d00b8689f84959749e8dc0055546ab9fa36c95c",
+    "short": "1d00b86",
+    "message": "Add mian",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-07T19:08:59+02:00",
+    "vi_count": 157
+  },
+  {
+    "sha": "39916d48a5200cbbd82b2a640c77c89dcf7f27f3",
+    "short": "39916d4",
+    "message": "Implement barista",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-07T19:05:53+02:00",
+    "vi_count": 157
+  },
+  {
+    "sha": "31d4c8598f7f4f815529a122008b4c2c54fe4013",
+    "short": "31d4c85",
+    "message": "Update icons and names",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-07T18:06:58+02:00",
+    "vi_count": 152
+  },
+  {
+    "sha": "16b5ed4d26a97a5d818dd35b94b39605db44a1e5",
+    "short": "16b5ed4",
+    "message": "Add test to show missing functionality",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-07T16:03:28+02:00",
+    "vi_count": 152
+  },
+  {
+    "sha": "e0c8a4407d53f8e7b409dbce065b86e02a5a7637",
+    "short": "e0c8a44",
+    "message": "Extract interface refactor",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-07T15:46:02+02:00",
+    "vi_count": 146
+  },
+  {
+    "sha": "6bc20f3ecc4c56c447d1ab4f663ed0ef263ae9e5",
+    "short": "6bc20f3",
+    "message": "Work on abstractions",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-07T15:39:10+02:00",
+    "vi_count": 146
+  },
+  {
+    "sha": "00a600ffb2b3ccd4c3b674ac926cdd219834872d",
+    "short": "00a600f",
+    "message": "Work on cahier",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-06T23:28:32+02:00",
+    "vi_count": 144
+  },
+  {
+    "sha": "f8d7a61d71b9d7e9f74aba71f5fb0197cbc6f5a3",
+    "short": "f8d7a61",
+    "message": "Implement Work Dispatcher",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-06T21:55:05+02:00",
+    "vi_count": 134
+  },
+  {
+    "sha": "2379513bc26e1f514a2ec30736cb839b03f319f2",
+    "short": "2379513",
+    "message": "Implement worker view",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-06T20:51:05+02:00",
+    "vi_count": 120
+  },
+  {
+    "sha": "4c1ece97b029e7178a9c6c089b347a55bcba4cc4",
+    "short": "4c1ece9",
+    "message": "Work on Worker implementation",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-06T20:43:06+02:00",
+    "vi_count": 119
+  },
+  {
+    "sha": "a65e47f0d06cf987525abc99122956345363bbe8",
+    "short": "a65e47f",
+    "message": "Initial work on coffee shop",
+    "author": "Anton Sundqvist",
+    "date": "2021-10-06T19:57:57+02:00",
+    "vi_count": 115
+  },
+  {
+    "sha": "4af2673eb5fae786463a6a2181973d191f5dbb08",
+    "short": "4af2673",
+    "message": "Add top level Demo VIs",
+    "author": "Anton Sundqvist",
+    "date": "2021-09-24T22:23:18+02:00",
+    "vi_count": 70
+  },
+  {
+    "sha": "2ccc335b0907ca7c12c9c00096a7a0666ca1ffdf",
+    "short": "2ccc335",
+    "message": "Implement thermal chamber controller",
+    "author": "Anton Sundqvist",
+    "date": "2021-09-24T21:52:30+02:00",
+    "vi_count": 67
+  },
+  {
+    "sha": "9a21cfda6cbe5146d4ee550e5c5d897adc551d6c",
+    "short": "9a21cfd",
+    "message": "Add tests for Thermal Chamber",
+    "author": "Anton Sundqvist",
+    "date": "2021-09-24T20:39:18+02:00",
+    "vi_count": 64
+  },
+  {
+    "sha": "d22dfb349c20d683d9bcd196ab7c6dd6b804fb18",
+    "short": "d22dfb3",
+    "message": "Implement response simulator",
+    "author": "Anton Sundqvist",
+    "date": "2021-09-24T19:49:15+02:00",
+    "vi_count": 56
+  },
+  {
+    "sha": "00df39b1d088cdfdfbc011b5d19efd040888fd7a",
+    "short": "00df39b",
+    "message": "Add tests for response simulator",
+    "author": "Anton Sundqvist",
+    "date": "2021-09-24T18:23:01+02:00",
+    "vi_count": 52
+  },
+  {
+    "sha": "36c7c311ad5c9b2d149e51e991017725893c69a0",
+    "short": "36c7c31",
+    "message": "Start implementing thermal chamber controller",
+    "author": "Anton Sundqvist",
+    "date": "2021-09-24T17:41:35+02:00",
+    "vi_count": 35
+  },
+  {
+    "sha": "253d80c4d6733c035e34257d92a84b8d1df48212",
+    "short": "253d80c",
+    "message": "Implement DUT to be functionally the same as the DQMH example",
+    "author": "Anton Sundqvist",
+    "date": "2021-09-23T21:20:38+02:00",
+    "vi_count": 25
+  }
+]
